@@ -1,4 +1,4 @@
-package javajungsuktest;
+package javajungsuktestEx3;
 
 public class ex3_3 {
 	public static void main(String[] args) {
