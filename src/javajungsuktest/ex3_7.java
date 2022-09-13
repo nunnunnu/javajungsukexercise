@@ -7,7 +7,7 @@ public class ex3_7 {
 		float celcius = ((int)(5/9f * (fahrenheit-32)*100))/100f;
 		
 		System.out.println("Fahrenheit : "+fahrenheit);
-		System.out.println("celcius"+celcius);
+		System.out.println("celcius : "+celcius);
 	}
 
 }
