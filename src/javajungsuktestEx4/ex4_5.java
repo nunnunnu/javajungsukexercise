@@ -9,6 +9,7 @@ public class ex4_5 {
 			}
 			System.out.println();
 		}
+		
 		//위 for문을 while문으로 변경
 		int i=0;
 		while(i<=10) {
