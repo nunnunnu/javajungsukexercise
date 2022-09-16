@@ -10,7 +10,7 @@ public class ex4_13 {
 		
 		//반복문과 charAt(int i)를 통해 문자열의 문자를 하나씩 읽어 검사
 		for(int i=0;i<value.length();i++) {
-//			if(!(value.charAt(i)>='1' && value.charAt(i)<='9')) {
+//			if(!(value.charAt(i)>='1' && value.charAt(i)<='9')) { //앞에 변수 ch있는거 까먹음;;
 			ch = value.charAt(i);
 			if(!(ch>='1' && ch<='9')) {
 				isNumber = false;
