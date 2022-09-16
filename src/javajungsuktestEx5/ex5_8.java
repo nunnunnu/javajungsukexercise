@@ -25,6 +25,7 @@ public class ex5_8 {
 		
 		for(int i=0;i<answer.length;i++) {
 			counter[answer[i]-1]++; //배열의 인덱스(0~3)를 구하려면 배열크기에서 -1해줘야함
+		//answer[0]이면 1나옴. 1-1해서 0자리에 counter[0]++해서 1이나올때마다 1씩 +됨
 		}
 		for(int i=0; i < counter.length;i++) {
 			System.out.print(counter[i]);
