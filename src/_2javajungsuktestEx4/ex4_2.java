@@ -11,5 +11,4 @@ public class ex4_2 {
 		}
 		System.out.println(sum);
 	}
-
 }
