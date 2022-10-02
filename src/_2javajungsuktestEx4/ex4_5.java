@@ -18,7 +18,6 @@ public class ex4_5 {
 			System.out.println();
 			i++;
 		}
-		
 	}
 
 }
