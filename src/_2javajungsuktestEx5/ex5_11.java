@@ -12,16 +12,24 @@ public class ex5_11 {
 		};
 		int result[][] = new int[score.length+1][score[0].length+1];
 		
+//		for(int i=0;i<score.length;i++) {
+//			int sum=0;
+//			for(int j=0;j<score[i].length;j++) {
+//				int sum2=0;
+//				result[i][j] = score[i][j];
+//				sum+=score[i][j];
+//				sum2+=score[i][j];
+//				result[i][score[i].length] = sum;
+//				result[score.length][j]+=sum2;
+//				result[score.length][score[i].length] += sum2;
+//			}
+//		}
 		for(int i=0;i<score.length;i++) {
-			int sum=0;
 			for(int j=0;j<score[i].length;j++) {
-				int sum2=0;
 				result[i][j] = score[i][j];
-				sum+=score[i][j];
-				sum2+=score[i][j];
-				result[i][score[i].length] = sum;
-				result[score.length][j]+=sum2;
-				result[score.length][score[i].length] += sum2;
+				result[i][score[i].length] += result[i][j];
+				result[score.length][j]+=result[i][j];
+				result[score.length][score[i].length] += result[i][j];
 			}
 		}
 		for(int i=0;i<result.length;i++) {
