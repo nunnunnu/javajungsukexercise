@@ -1,3 +1,4 @@
+package _2javajungsuktestEx3;
 
 public class ex3_7 {
 
