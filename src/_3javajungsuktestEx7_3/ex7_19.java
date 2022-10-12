@@ -25,11 +25,17 @@ class Buyer{
 	}
 	void summary() {
 		int sum=0;
+		String itemlist="";
+//		for(int i=0;i<cart.length;i++) {
+//			System.out.print(cart[i]+", ");
+//			sum+=cart[i].price;
+//		}
 		for(int i=0;i<cart.length;i++) {
-			System.out.print(cart[i]+", ");
+			itemlist += cart[i] + ", ";
 			sum+=cart[i].price;
 		}
-		System.out.println();
+//		System.out.println();
+		System.out.println(itemlist);
 		System.out.println("사용한 돈 : "+sum);
 		System.out.println("남은 돈 : "+money);
 	}

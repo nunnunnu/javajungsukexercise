@@ -41,7 +41,7 @@ class Circle extends Shape{
 		this(new Point(0,0),r);
 	}
 	Circle(Point p, double r){
-		super(p);
+		super(p); //조상의 멤버는 조상의 생성자가 초기화 하도록
 		this.r=r;
 	}
 	
@@ -56,7 +56,7 @@ class Rectangle extends Shape{
 		this(new Point(0,0),width, height);
 	}
 	Rectangle(Point p, double width, double height){
-		super(p);
+		super(p); //조상의 멤버는 조상의 생성자가 초기화 하도록
 		this.height=height;
 		this.width=width;
 	}
