@@ -61,6 +61,7 @@ class Audio extends Product{
 	Audio(){super(50);}
 	public String toString() {return "AUDIO";}
 }
+
 public class ex7_19 {
 
 	public static void main(String[] args) {
